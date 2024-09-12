@@ -1,18 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import AllaProfile from './allaProfile/AllaProfile';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import Lesson01 from "./lesson_01/Lesson01";
+import Lesson02 from "./lesson_02/Lesson02";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // мы оборачиваем дочерние теги в родитель по просьбе react
   // если нам не нужен явный контейнер мы можем воспользоваться пустым тегом - react фрагментом
   <>
-    <App />
-    <AllaProfile />
+    {/* вызов компонента происходит через обращение к нему в теге */}
+    {/* <Lesson01 /> */}
+    <Lesson02 />
   </>
 );
-
-
-
