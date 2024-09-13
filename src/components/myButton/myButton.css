@@ -1,21 +1,15 @@
 .myButton {
   min-width: 65px;
   background-color: rgb(255, 96, 96);
-  /* background-color: #e96443;
-  background: -webkit-linear-gradient(to right, #904e95, #e96443);
-  background: linear-gradient(to right, #904e95, #e96443); */
   border: none;
   padding: 6px 10px;
   margin: 5px;
   border-radius: 5px;
   color: white;
   cursor: pointer;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .myButton:hover {
-  background-color: olive;
-  /* background-color: #f7ff00;
-  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);
-  background: linear-gradient(to right, #db36a4, #f7ff00); */
+  background-color: #6F8FAC;
 }
