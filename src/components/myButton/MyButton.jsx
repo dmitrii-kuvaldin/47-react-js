@@ -1,6 +1,7 @@
 import "./myButton.css";
-function MyButton() {
-  return <button className='myButton'>Click me!</button>;
+function MyButton(props) {
+  console.log(props)
+  return <button className='myButton'>{props.text}</button>;
 }
 
 export default MyButton;
