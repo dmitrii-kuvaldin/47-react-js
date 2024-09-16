@@ -1,6 +1,6 @@
 // импорт css из отдельного файла
 import jsxImg from "../assets/jsx.jpg";
-import MyButton from "../components/myButton/MyButton";
+import MyButton from "../../components/myButton/MyButton";
 import "./lesson01.css";
 
 // функции App является react компонентом
@@ -17,7 +17,7 @@ function Lesson01() {
       <h1>Hello, react! 🙋‍♂️</h1>
       <img className="jsxImg" src={jsxImg} alt="" />
       <div>
-        <MyButton text={"приходи ко мне на чай"} func={remember} />
+        <MyButton text={"приходи ко мне на чай"} onClick={remember} />
       </div>
     </div>
   );
