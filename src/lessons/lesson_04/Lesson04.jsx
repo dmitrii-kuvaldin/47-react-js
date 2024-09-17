@@ -28,7 +28,7 @@ function Lesson04() {
 
   return (
     <div className="lesson-container">
-      <h2>React hook useState 🪝</h2>
+      <h2>Lesson 4. React hook useState 🪝</h2>
       <div className="counter">
         <button onClick={handleMinus}>-</button>
         <span>{count}</span>
