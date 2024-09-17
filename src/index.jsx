@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Homework04 from "./homeworks/homework_04/Homework04";
 import "./index.css";
-import Lesson04 from './lessons/lesson_04/Lesson04';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +13,7 @@ root.render(
     {/* <Lesson02 /> */}
     {/* <Lesson03 /> */}
     {/* <Homework03 /> */}
-    <Lesson04/>
+    {/* <Lesson04/> */}
+    <Homework04 />
   </>
 );
